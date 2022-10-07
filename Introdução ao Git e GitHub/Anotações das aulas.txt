@@ -1,0 +1,29 @@
+## Comandos básicos do Git:
+
+- cd (change directory) -> entra no diretório da pasta selecionada;
+- ls -> lista todos os arquivos contidos dentro da pasta atual
+- ls -a -> lista todos os arquivos contidos na pasta, inclusive os ocultos
+- mkdir -> cria uma pasta
+- echo "conteúdo do arquivo" > "nome do arquivo.formato do arquivo" -> cria um arquivo dentro da pasta
+- del -> deleta o arquivo 
+- rdmir -> deleta a pasta
+- cd .. -> volta uma pasta
+- pdw -> mostra o caminho completo da pasta
+- Ctrl + L -> limpa o terminal
+
+
+
+## Comandos necessários para clonar, alterar e empurrar um arquivo para o repositório (feitos no Git Bash)
+
+- git init -> cria e inicia um repositório 
+- git add -> move um arquivo unstracked, unmodified ou modified para para o staged (apenas quando o arquivo se encontra no staged é possível empurrá-lo para o servidor GitHub)
+- git status -> verifica o status do arquivo (se ele está pronto para subir ou se ainda é necessária alguma alteração)
+- git commit -m "Mensagem contendo uma identificação do que está sendo feito" -> cria um commit para enviar para o servidor
+- git push origin main -> envia todos os commits locais para o servidor
+
+
+
+## SHA 1
+
+Algorítmo de hash seguro - é como se fosse uma chave de identificação única daquele arquivo. Qualquer alteração no arquivo (um ponto, que seja) gera um novo código SHA1. Esse código identificador é composto por 40 dígitos.
+
